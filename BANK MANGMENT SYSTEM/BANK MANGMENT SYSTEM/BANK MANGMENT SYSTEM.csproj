@@ -58,11 +58,77 @@
     <Compile Include="Admin_Table.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="FORMS\balanceSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\balanceSheet.Designer.cs">
+      <DependentUpon>balanceSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\CreditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\CreditForm.Designer.cs">
+      <DependentUpon>CreditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\CustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\CustomerList.Designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\DepositForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\DepositForm.Designer.cs">
+      <DependentUpon>DepositForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FDForm.Designer.cs">
+      <DependentUpon>FDForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\Login-Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FORMS\Login-Form.Designer.cs">
       <DependentUpon>Login-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\NewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\NewAccount.Designer.cs">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\TransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\TransferForm.Designer.cs">
+      <DependentUpon>TransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\UpdationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\UpdationForm.Designer.cs">
+      <DependentUpon>UpdationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ViewFD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ViewFD.Designer.cs">
+      <DependentUpon>ViewFD.cs</DependentUpon>
     </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -83,6 +149,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMS\Login-Form.resx">
       <DependentUpon>Login-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
