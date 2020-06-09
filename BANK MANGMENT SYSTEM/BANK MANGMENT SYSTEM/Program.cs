@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Menu = BANK_MANGMENT_SYSTEM.FORMS.Menu;
 
 namespace BANK_MANGMENT_SYSTEM
 {
@@ -17,7 +18,7 @@ namespace BANK_MANGMENT_SYSTEM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login_Form());
+            Application.Run(new Menu());
         }
     }
 }

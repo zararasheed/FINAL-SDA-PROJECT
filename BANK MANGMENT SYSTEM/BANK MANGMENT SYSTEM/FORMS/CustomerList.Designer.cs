@@ -31,10 +31,11 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.Account_No = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Father_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Customer_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DOB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Father_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PhoneNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.balance = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.State = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,10 +47,11 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Account_No,
-            this.Father_Name,
             this.Customer_Name,
             this.DOB,
+            this.Father_Name,
             this.PhoneNo,
+            this.Address,
             this.balance,
             this.Gender,
             this.State});
@@ -74,12 +76,6 @@
             this.Account_No.HeaderText = "Account_No";
             this.Account_No.Name = "Account_No";
             // 
-            // Father_Name
-            // 
-            this.Father_Name.DataPropertyName = "Father_Name";
-            this.Father_Name.HeaderText = "Father_Name";
-            this.Father_Name.Name = "Father_Name";
-            // 
             // Customer_Name
             // 
             this.Customer_Name.DataPropertyName = "Name";
@@ -92,11 +88,23 @@
             this.DOB.HeaderText = "Date_Of_Birth";
             this.DOB.Name = "DOB";
             // 
+            // Father_Name
+            // 
+            this.Father_Name.DataPropertyName = "Father_Name";
+            this.Father_Name.HeaderText = "Father_Name";
+            this.Father_Name.Name = "Father_Name";
+            // 
             // PhoneNo
             // 
             this.PhoneNo.DataPropertyName = "PhoneNo";
             this.PhoneNo.HeaderText = "Phone No";
             this.PhoneNo.Name = "PhoneNo";
+            // 
+            // Address
+            // 
+            this.Address.DataPropertyName = "Address";
+            this.Address.HeaderText = "Address";
+            this.Address.Name = "Address";
             // 
             // balance
             // 
@@ -136,10 +144,11 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Account_No;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Father_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn Customer_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn DOB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Father_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
         private System.Windows.Forms.DataGridViewTextBoxColumn balance;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
         private System.Windows.Forms.DataGridViewTextBoxColumn State;

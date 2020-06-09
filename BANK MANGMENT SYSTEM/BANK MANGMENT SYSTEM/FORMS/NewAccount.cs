@@ -26,9 +26,6 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
             loaddate();
             loadaccount();
             loadstate();
-
-
-
         }
 
         private void loadstate()
@@ -45,14 +42,18 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
         {
             BSE = new Bank_Mangment_SystemEntities1();
             var item = BSE.userAccounts.ToArray();
-            no = item.LastOrDefault().Account_No + 1;
-            accnotext.Text = Convert.ToString(no);
-            
+            if (!string.IsNullOrEmpty(accnotext.Text))
+            {
+
+
+                no = item.LastOrDefault().Account_No + 1;
+                accnotext.Text = Convert.ToString(no);
+            }
         }
 
         private void loaddate()
         {
-            datelbl.Text = DateTime.Now.ToString("mm/dd/yyyy");
+            datelbl.Text = DateTime.Now.ToString("MM/dd/yyyy");
         }
 
         private void NewAccount_Load(object sender, EventArgs e)
@@ -89,6 +90,7 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
             acc.Name = nametext.Text;
             acc.DOB = dateTimePicker1.Value.ToString();
             acc.PhoneNo = phonetext.Text;
+            
             acc.District = distext.Text;
             acc.State = comboBox1.SelectedItem.ToString();
             acc.Gender = gender;

@@ -27,9 +27,9 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
 
         private void newAccountToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            NewAccount newacc = new NewAccount();
-            newacc.MdiParent = this;
-            newacc.Show();
+            NewAccount newac = new NewAccount();
+            newac.MdiParent = this;
+            newac.Show();
 
         }
 

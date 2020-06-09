@@ -112,17 +112,8 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
                 img.Save(ms,img.RawFormat);
                 
             }
-
-
-
-
-
-
-
-
-
+          
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
             bi.RemoveAt(dataGridView1.SelectedRows[0].Index);
