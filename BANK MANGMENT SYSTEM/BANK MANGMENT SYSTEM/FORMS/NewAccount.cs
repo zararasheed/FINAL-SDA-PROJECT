@@ -36,6 +36,9 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
             comboBox1.Items.Add("ISLAMABAD");
             comboBox1.Items.Add("LAHORE");
             comboBox1.Items.Add("KARACHII");
+            comboBox1.Items.Add("QUETTA");
+            comboBox1.Items.Add("BALOCHISTAN");
+
 
         }
         private void loadaccount()

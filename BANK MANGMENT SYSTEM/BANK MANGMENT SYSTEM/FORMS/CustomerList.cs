@@ -15,6 +15,16 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
         public CustomerList()
         {
             InitializeComponent();
+            bindgrids();
+        }
+
+        private void bindgrids()
+        {
+            dataGridView1.AutoGenerateColumns = false;
+            Bank_Mangment_SystemEntities1 bs = new Bank_Mangment_SystemEntities1();
+            var item = bs.userAccounts.ToList();
+            dataGridView1.DataSource = item;
+            //throw new NotImplementedException();
         }
     }
 }
