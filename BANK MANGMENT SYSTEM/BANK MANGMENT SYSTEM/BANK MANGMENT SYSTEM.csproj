@@ -189,6 +189,9 @@
     <EmbeddedResource Include="FORMS\NewAccount.resx">
       <DependentUpon>NewAccount.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\TransferForm.resx">
+      <DependentUpon>TransferForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\UpdationForm.resx">
       <DependentUpon>UpdationForm.cs</DependentUpon>
     </EmbeddedResource>
