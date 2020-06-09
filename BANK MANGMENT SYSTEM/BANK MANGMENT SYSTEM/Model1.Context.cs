@@ -26,5 +26,12 @@ namespace BANK_MANGMENT_SYSTEM
         }
     
         public virtual DbSet<Admin_Table> Admin_Table { get; set; }
+        public virtual DbSet<debit> debits { get; set; }
+        public virtual DbSet<Deposit> Deposits { get; set; }
+        public virtual DbSet<employee> employees { get; set; }
+        public virtual DbSet<FD> FDs { get; set; }
+        public virtual DbSet<Transfer> Transfers { get; set; }
+        public virtual DbSet<userAccount> userAccounts { get; set; }
+        public virtual DbSet<userTable> userTables { get; set; }
     }
 }

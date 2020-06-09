@@ -35,9 +35,9 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
 
         private void allStudentToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CustomerList newacc = new CustomerList();
-            newacc.MdiParent = this;
-            newacc.Show();
+            CustomerList newac = new CustomerList();
+            newac.MdiParent = this;
+            newac.Show();
         }
 
         private void depositToolStripMenuItem_Click(object sender, EventArgs e)
@@ -98,6 +98,11 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
             FDForm fd = new FDForm();
             fd.MdiParent = this;
             fd.Show();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

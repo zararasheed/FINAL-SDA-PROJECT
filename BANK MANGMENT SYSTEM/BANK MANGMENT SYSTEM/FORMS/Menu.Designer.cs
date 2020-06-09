@@ -37,6 +37,7 @@
             this.depositToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.withdrawToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transferToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.balanceSheetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewFDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,7 +45,6 @@
             this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,23 +106,30 @@
             // depositToolStripMenuItem
             // 
             this.depositToolStripMenuItem.Name = "depositToolStripMenuItem";
-            this.depositToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.depositToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.depositToolStripMenuItem.Text = "Deposit";
             this.depositToolStripMenuItem.Click += new System.EventHandler(this.depositToolStripMenuItem_Click);
             // 
             // withdrawToolStripMenuItem
             // 
             this.withdrawToolStripMenuItem.Name = "withdrawToolStripMenuItem";
-            this.withdrawToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.withdrawToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.withdrawToolStripMenuItem.Text = "Withdraw";
             this.withdrawToolStripMenuItem.Click += new System.EventHandler(this.withdrawToolStripMenuItem_Click);
             // 
             // transferToolStripMenuItem
             // 
             this.transferToolStripMenuItem.Name = "transferToolStripMenuItem";
-            this.transferToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.transferToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.transferToolStripMenuItem.Text = "Transfer";
             this.transferToolStripMenuItem.Click += new System.EventHandler(this.transferToolStripMenuItem_Click);
+            // 
+            // fDToolStripMenuItem
+            // 
+            this.fDToolStripMenuItem.Name = "fDToolStripMenuItem";
+            this.fDToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.fDToolStripMenuItem.Text = "FD";
+            this.fDToolStripMenuItem.Click += new System.EventHandler(this.fDToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
             // 
@@ -136,14 +143,14 @@
             // balanceSheetToolStripMenuItem
             // 
             this.balanceSheetToolStripMenuItem.Name = "balanceSheetToolStripMenuItem";
-            this.balanceSheetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.balanceSheetToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.balanceSheetToolStripMenuItem.Text = "Balance Sheet";
             this.balanceSheetToolStripMenuItem.Click += new System.EventHandler(this.balanceSheetToolStripMenuItem_Click);
             // 
             // viewFDToolStripMenuItem
             // 
             this.viewFDToolStripMenuItem.Name = "viewFDToolStripMenuItem";
-            this.viewFDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewFDToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.viewFDToolStripMenuItem.Text = "View FD";
             this.viewFDToolStripMenuItem.Click += new System.EventHandler(this.viewFDToolStripMenuItem_Click);
             // 
@@ -160,30 +167,23 @@
             // changePasswordToolStripMenuItem
             // 
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.changePasswordToolStripMenuItem.Text = "LogOut";
             this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.logOutToolStripMenuItem.Text = "Change Password";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // fDToolStripMenuItem
-            // 
-            this.fDToolStripMenuItem.Name = "fDToolStripMenuItem";
-            this.fDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fDToolStripMenuItem.Text = "FD";
-            this.fDToolStripMenuItem.Click += new System.EventHandler(this.fDToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -195,6 +195,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
