@@ -31,12 +31,12 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.Account_No = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Father_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Customer_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DOB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PhoneNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.balance = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Father_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.State = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -46,16 +46,16 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Account_No,
+            this.Father_Name,
             this.Customer_Name,
             this.DOB,
             this.PhoneNo,
             this.balance,
             this.Gender,
-            this.Father_Name,
             this.State});
             this.dataGridView1.Location = new System.Drawing.Point(13, 66);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(775, 359);
+            this.dataGridView1.Size = new System.Drawing.Size(843, 359);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -73,6 +73,12 @@
             this.Account_No.DataPropertyName = "Account_No";
             this.Account_No.HeaderText = "Account_No";
             this.Account_No.Name = "Account_No";
+            // 
+            // Father_Name
+            // 
+            this.Father_Name.DataPropertyName = "Father_Name";
+            this.Father_Name.HeaderText = "Father_Name";
+            this.Father_Name.Name = "Father_Name";
             // 
             // Customer_Name
             // 
@@ -104,23 +110,17 @@
             this.Gender.HeaderText = "Gender";
             this.Gender.Name = "Gender";
             // 
-            // Father_Name
-            // 
-            this.Father_Name.DataPropertyName = "Father_Name";
-            this.Father_Name.HeaderText = "Father Name";
-            this.Father_Name.Name = "Father_Name";
-            // 
             // State
             // 
             this.State.DataPropertyName = "State";
-            this.State.HeaderText = "STATE";
+            this.State.HeaderText = "State";
             this.State.Name = "State";
             // 
             // CustomerList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(861, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "CustomerList";
@@ -136,12 +136,12 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Account_No;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Father_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn Customer_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn DOB;
         private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn balance;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Father_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn State;
     }
 }
