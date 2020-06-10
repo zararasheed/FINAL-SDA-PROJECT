@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.newAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newAccountToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,7 +58,7 @@
             this.othersToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(729, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(729, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -67,28 +68,32 @@
             this.newAccountToolStripMenuItem1,
             this.sToolStripMenuItem,
             this.allStudentToolStripMenuItem});
+            this.newAccountToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.newAccountToolStripMenuItem.Name = "newAccountToolStripMenuItem";
-            this.newAccountToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.newAccountToolStripMenuItem.Size = new System.Drawing.Size(93, 29);
             this.newAccountToolStripMenuItem.Text = "Account";
             // 
             // newAccountToolStripMenuItem1
             // 
+            this.newAccountToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.newAccountToolStripMenuItem1.Name = "newAccountToolStripMenuItem1";
-            this.newAccountToolStripMenuItem1.Size = new System.Drawing.Size(200, 22);
+            this.newAccountToolStripMenuItem1.Size = new System.Drawing.Size(283, 30);
             this.newAccountToolStripMenuItem1.Text = "New Account";
             this.newAccountToolStripMenuItem1.Click += new System.EventHandler(this.newAccountToolStripMenuItem1_Click);
             // 
             // sToolStripMenuItem
             // 
+            this.sToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.sToolStripMenuItem.Name = "sToolStripMenuItem";
-            this.sToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.sToolStripMenuItem.Size = new System.Drawing.Size(283, 30);
             this.sToolStripMenuItem.Text = "Update/Search Account";
             this.sToolStripMenuItem.Click += new System.EventHandler(this.sToolStripMenuItem_Click);
             // 
             // allStudentToolStripMenuItem
             // 
+            this.allStudentToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.allStudentToolStripMenuItem.Name = "allStudentToolStripMenuItem";
-            this.allStudentToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.allStudentToolStripMenuItem.Size = new System.Drawing.Size(283, 30);
             this.allStudentToolStripMenuItem.Text = "All Customer";
             this.allStudentToolStripMenuItem.Click += new System.EventHandler(this.allStudentToolStripMenuItem_Click);
             // 
@@ -99,35 +104,40 @@
             this.withdrawToolStripMenuItem,
             this.transferToolStripMenuItem,
             this.fDToolStripMenuItem});
+            this.transactionsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.transactionsToolStripMenuItem.Name = "transactionsToolStripMenuItem";
-            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(128, 29);
             this.transactionsToolStripMenuItem.Text = "Transactions";
             // 
             // depositToolStripMenuItem
             // 
+            this.depositToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.depositToolStripMenuItem.Name = "depositToolStripMenuItem";
-            this.depositToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.depositToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.depositToolStripMenuItem.Text = "Deposit";
             this.depositToolStripMenuItem.Click += new System.EventHandler(this.depositToolStripMenuItem_Click);
             // 
             // withdrawToolStripMenuItem
             // 
+            this.withdrawToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.withdrawToolStripMenuItem.Name = "withdrawToolStripMenuItem";
-            this.withdrawToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.withdrawToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.withdrawToolStripMenuItem.Text = "Withdraw";
             this.withdrawToolStripMenuItem.Click += new System.EventHandler(this.withdrawToolStripMenuItem_Click);
             // 
             // transferToolStripMenuItem
             // 
+            this.transferToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.transferToolStripMenuItem.Name = "transferToolStripMenuItem";
-            this.transferToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.transferToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.transferToolStripMenuItem.Text = "Transfer";
             this.transferToolStripMenuItem.Click += new System.EventHandler(this.transferToolStripMenuItem_Click);
             // 
             // fDToolStripMenuItem
             // 
+            this.fDToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.fDToolStripMenuItem.Name = "fDToolStripMenuItem";
-            this.fDToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.fDToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.fDToolStripMenuItem.Text = "FD";
             this.fDToolStripMenuItem.Click += new System.EventHandler(this.fDToolStripMenuItem_Click);
             // 
@@ -136,21 +146,24 @@
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.balanceSheetToolStripMenuItem,
             this.viewFDToolStripMenuItem});
+            this.viewToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(65, 29);
             this.viewToolStripMenuItem.Text = "View";
             // 
             // balanceSheetToolStripMenuItem
             // 
+            this.balanceSheetToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.balanceSheetToolStripMenuItem.Name = "balanceSheetToolStripMenuItem";
-            this.balanceSheetToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.balanceSheetToolStripMenuItem.Size = new System.Drawing.Size(202, 30);
             this.balanceSheetToolStripMenuItem.Text = "Balance Sheet";
             this.balanceSheetToolStripMenuItem.Click += new System.EventHandler(this.balanceSheetToolStripMenuItem_Click);
             // 
             // viewFDToolStripMenuItem
             // 
+            this.viewFDToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.viewFDToolStripMenuItem.Name = "viewFDToolStripMenuItem";
-            this.viewFDToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.viewFDToolStripMenuItem.Size = new System.Drawing.Size(202, 30);
             this.viewFDToolStripMenuItem.Text = "View FD";
             this.viewFDToolStripMenuItem.Click += new System.EventHandler(this.viewFDToolStripMenuItem_Click);
             // 
@@ -160,28 +173,32 @@
             this.changePasswordToolStripMenuItem,
             this.logOutToolStripMenuItem,
             this.exitToolStripMenuItem});
+            this.othersToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.othersToolStripMenuItem.Name = "othersToolStripMenuItem";
-            this.othersToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.othersToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
             this.othersToolStripMenuItem.Text = "Others";
             // 
             // changePasswordToolStripMenuItem
             // 
+            this.changePasswordToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(233, 30);
             this.changePasswordToolStripMenuItem.Text = "LogOut";
             this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 
+            this.logOutToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(233, 30);
             this.logOutToolStripMenuItem.Text = "Change Password";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(233, 30);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -191,6 +208,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 379);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";

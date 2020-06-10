@@ -63,5 +63,10 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
 
 
         }
+
+        private void TransferForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

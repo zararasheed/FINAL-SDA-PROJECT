@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustomerList));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.Account_No = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -35,10 +36,10 @@
             this.DOB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Father_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PhoneNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.balance = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.State = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,10 +52,10 @@
             this.DOB,
             this.Father_Name,
             this.PhoneNo,
-            this.Address,
             this.balance,
             this.Gender,
-            this.State});
+            this.State,
+            this.Address});
             this.dataGridView1.Location = new System.Drawing.Point(13, 66);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(843, 359);
@@ -100,12 +101,6 @@
             this.PhoneNo.HeaderText = "Phone No";
             this.PhoneNo.Name = "PhoneNo";
             // 
-            // Address
-            // 
-            this.Address.DataPropertyName = "Address";
-            this.Address.HeaderText = "Address";
-            this.Address.Name = "Address";
-            // 
             // balance
             // 
             this.balance.DataPropertyName = "balance";
@@ -124,6 +119,12 @@
             this.State.HeaderText = "State";
             this.State.Name = "State";
             // 
+            // Address
+            // 
+            this.Address.DataPropertyName = "Address";
+            this.Address.HeaderText = "Address";
+            this.Address.Name = "Address";
+            // 
             // CustomerList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -131,6 +132,7 @@
             this.ClientSize = new System.Drawing.Size(861, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CustomerList";
             this.Text = "CustomerList";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -148,9 +150,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DOB;
         private System.Windows.Forms.DataGridViewTextBoxColumn Father_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
         private System.Windows.Forms.DataGridViewTextBoxColumn balance;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
         private System.Windows.Forms.DataGridViewTextBoxColumn State;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
     }
 }

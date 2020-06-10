@@ -180,6 +180,12 @@
     <EmbeddedResource Include="FORMS\CustomerList.resx">
       <DependentUpon>CustomerList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\DepositForm.resx">
+      <DependentUpon>DepositForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FDForm.resx">
+      <DependentUpon>FDForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Login-Form.resx">
       <DependentUpon>Login-Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\UpdationForm.resx">
       <DependentUpon>UpdationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ViewFD.resx">
+      <DependentUpon>ViewFD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
