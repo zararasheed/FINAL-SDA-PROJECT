@@ -10,6 +10,7 @@ namespace BANK_MANGMENT_SYSTEM
 {
     static class Program
     {
+        //hello world
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
