@@ -50,7 +50,7 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
 
         private void withdrawToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DepositForm df = new DepositForm();
+            Debitform df = new Debitform();
             df.MdiParent=this;
             df.Show();
         }

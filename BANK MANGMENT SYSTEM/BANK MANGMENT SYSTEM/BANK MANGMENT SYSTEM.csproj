@@ -94,11 +94,11 @@
     <Compile Include="FORMS\CustomerList.Designer.cs">
       <DependentUpon>CustomerList.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\DepositForm.cs">
+    <Compile Include="FORMS\Debitform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\DepositForm.Designer.cs">
-      <DependentUpon>DepositForm.cs</DependentUpon>
+    <Compile Include="FORMS\Debitform.Designer.cs">
+      <DependentUpon>Debitform.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\FDForm.cs">
       <SubType>Form</SubType>
@@ -180,8 +180,8 @@
     <EmbeddedResource Include="FORMS\CustomerList.resx">
       <DependentUpon>CustomerList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\DepositForm.resx">
-      <DependentUpon>DepositForm.cs</DependentUpon>
+    <EmbeddedResource Include="FORMS\Debitform.resx">
+      <DependentUpon>Debitform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\FDForm.resx">
       <DependentUpon>FDForm.cs</DependentUpon>
