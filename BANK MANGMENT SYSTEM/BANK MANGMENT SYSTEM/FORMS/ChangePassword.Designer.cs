@@ -54,54 +54,58 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(39, 126);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 13);
+            this.label3.Size = new System.Drawing.Size(146, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Old Password";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(42, 168);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.Size = new System.Drawing.Size(154, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "New Password";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(42, 215);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.Size = new System.Drawing.Size(187, 25);
             this.label5.TabIndex = 4;
             this.label5.Text = "Re-type Password";
             // 
             // oldpasswordtxt
             // 
-            this.oldpasswordtxt.Location = new System.Drawing.Point(178, 126);
+            this.oldpasswordtxt.Location = new System.Drawing.Point(238, 132);
             this.oldpasswordtxt.Name = "oldpasswordtxt";
-            this.oldpasswordtxt.Size = new System.Drawing.Size(215, 20);
+            this.oldpasswordtxt.Size = new System.Drawing.Size(272, 20);
             this.oldpasswordtxt.TabIndex = 6;
             // 
             // newpasswordtxt
             // 
-            this.newpasswordtxt.Location = new System.Drawing.Point(178, 168);
+            this.newpasswordtxt.Location = new System.Drawing.Point(238, 174);
             this.newpasswordtxt.Name = "newpasswordtxt";
-            this.newpasswordtxt.Size = new System.Drawing.Size(215, 20);
+            this.newpasswordtxt.Size = new System.Drawing.Size(272, 20);
             this.newpasswordtxt.TabIndex = 7;
             // 
             // retypepasswordtxt
             // 
-            this.retypepasswordtxt.Location = new System.Drawing.Point(178, 207);
+            this.retypepasswordtxt.Location = new System.Drawing.Point(238, 213);
             this.retypepasswordtxt.Name = "retypepasswordtxt";
-            this.retypepasswordtxt.Size = new System.Drawing.Size(215, 20);
+            this.retypepasswordtxt.Size = new System.Drawing.Size(272, 20);
             this.retypepasswordtxt.TabIndex = 8;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(178, 253);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(261, 273);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 60);
             this.button1.TabIndex = 9;
@@ -112,17 +116,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(36, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(119, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "User Name";
             // 
             // usertxt
             // 
-            this.usertxt.Location = new System.Drawing.Point(178, 88);
+            this.usertxt.Location = new System.Drawing.Point(238, 94);
             this.usertxt.Name = "usertxt";
-            this.usertxt.Size = new System.Drawing.Size(215, 20);
+            this.usertxt.Size = new System.Drawing.Size(272, 20);
             this.usertxt.TabIndex = 5;
             // 
             // ChangePassword
