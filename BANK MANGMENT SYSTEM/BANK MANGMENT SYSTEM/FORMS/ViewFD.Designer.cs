@@ -38,15 +38,16 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Location = new System.Drawing.Point(13, 61);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(248, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(381, 30);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(267, 56);
+            this.button1.Location = new System.Drawing.Point(419, 56);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(119, 35);
             this.button1.TabIndex = 1;
