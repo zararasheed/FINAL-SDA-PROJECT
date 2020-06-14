@@ -16,9 +16,6 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
         {
             InitializeComponent();
         }
-        public void hello()
-        {
-
-        }
+     
     }
 }
