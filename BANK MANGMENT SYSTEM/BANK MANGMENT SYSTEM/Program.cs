@@ -19,7 +19,7 @@ namespace BANK_MANGMENT_SYSTEM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FDForm());
+            Application.Run(new Debitform());
         }
     }
 }
