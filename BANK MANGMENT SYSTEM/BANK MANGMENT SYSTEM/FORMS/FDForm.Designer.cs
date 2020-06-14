@@ -58,72 +58,77 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(56, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 13);
+            this.label2.Size = new System.Drawing.Size(124, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Account No";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(86, 150);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(66, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mode";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(76, 196);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 13);
+            this.label4.Size = new System.Drawing.Size(85, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Rupees";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(60, 257);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(58, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 13);
+            this.label5.Size = new System.Drawing.Size(125, 25);
             this.label5.TabIndex = 4;
             this.label5.Text = "Period(day)";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(64, 306);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(64, 285);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 13);
+            this.label6.Size = new System.Drawing.Size(119, 25);
             this.label6.TabIndex = 5;
             this.label6.Text = "Interest(%)";
             // 
             // accnotxt
             // 
-            this.accnotxt.Location = new System.Drawing.Point(147, 99);
+            this.accnotxt.Location = new System.Drawing.Point(207, 106);
             this.accnotxt.Name = "accnotxt";
             this.accnotxt.Size = new System.Drawing.Size(264, 20);
             this.accnotxt.TabIndex = 6;
             // 
             // rupeestxt
             // 
-            this.rupeestxt.Location = new System.Drawing.Point(147, 189);
+            this.rupeestxt.Location = new System.Drawing.Point(207, 196);
             this.rupeestxt.Name = "rupeestxt";
             this.rupeestxt.Size = new System.Drawing.Size(264, 20);
             this.rupeestxt.TabIndex = 7;
             // 
             // periodtxt
             // 
-            this.periodtxt.Location = new System.Drawing.Point(147, 250);
+            this.periodtxt.Location = new System.Drawing.Point(205, 245);
             this.periodtxt.Name = "periodtxt";
             this.periodtxt.Size = new System.Drawing.Size(264, 20);
             this.periodtxt.TabIndex = 8;
             // 
             // interesttxt
             // 
-            this.interesttxt.Location = new System.Drawing.Point(147, 299);
+            this.interesttxt.Location = new System.Drawing.Point(207, 285);
             this.interesttxt.Name = "interesttxt";
             this.interesttxt.Size = new System.Drawing.Size(264, 20);
             this.interesttxt.TabIndex = 9;
@@ -131,7 +136,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(147, 147);
+            this.comboBox1.Location = new System.Drawing.Point(207, 154);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(264, 21);
             this.comboBox1.TabIndex = 10;
@@ -147,9 +152,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(170, 369);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(229, 333);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 40);
+            this.button1.Size = new System.Drawing.Size(159, 55);
             this.button1.TabIndex = 12;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
