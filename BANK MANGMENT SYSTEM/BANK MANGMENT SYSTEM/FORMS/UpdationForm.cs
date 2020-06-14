@@ -124,5 +124,55 @@ namespace BANK_MANGMENT_SYSTEM.FORMS
             dbe.SaveChanges();
             
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dbe = new Bank_Mangment_SystemEntities1();
+            decimal accountno = Convert.ToDecimal(accnotext.Text);
+            userAccount useraccount = dbe.userAccounts.First(s => s.Account_No.Equals(accnotext));
+            useraccount.Account_No = Convert.ToDecimal(accnotext.Text);
+            useraccount.Name = nametext.Text;
+            useraccount.Date = dateTimePicker1.Value.ToString();
+            useraccount.Mother_Name = mothertext.Text;
+            useraccount.Father_Name = fathertext.Text;
+            useraccount.PhoneNo = phonetextbox.Text;
+            if (maleradio.Checked==true)
+            {
+                useraccount.Gender = "Male";
+            }
+            else
+            {
+                if (femaleradio.Checked==true)
+                {
+                    useraccount.Gender = "Female";
+                }
+            }
+            if (marriedradio.Checked==true)
+            {
+                useraccount.martial_status_ = "Married";
+            }
+            else
+            {
+                if (unmarriedradio.Checked == true)
+                {
+                    useraccount.martial_status_ = "UnMarried";
+                }
+            }
+            Image img = pictureBox1.Image;
+            if (img.RawFormat!=null)
+            {
+                if (ms != null)
+                {
+                    img.Save(ms, img.RawFormat);
+                    useraccount.Picture = ms.ToArray();
+
+                }
+
+            }
+            useraccount.District = districttext.Text;
+            useraccount.State = statetext.Text;
+            dbe.SaveChanges();
+            MessageBox.Show("Record Updated!");
+        }
     }
 }
